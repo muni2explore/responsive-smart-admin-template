@@ -42,7 +42,7 @@ npm run prod
 
 > Note: If you want add new HTML file for devleopment using webpack build system, then create HTML file and inform **Webpack build system** in the **webpack.config.js** file like this. In the plugin section you need to add the following config.
 
-```json
+```javascript
 new HtmlWebpackPlugin({
     template: "your-new-html-filename.html",
     filename: "your-new-html-filename.html",
